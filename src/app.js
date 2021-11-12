@@ -18,9 +18,9 @@ document.getElementById("button").addEventListener("click", () => {
   //crear el elemento
   let div = document.createElement("div");
   div.setAttribute("class", "col");
-
+  let random = Math.floor(Math.random() * 6) + 1;
   //TODO: CREAR UN HN AL AZAR (H1-H2...H6)
-  div.innerHTML = `<h1>${input.value.toUpperCase()}</h1>`;
+  div.innerHTML = `<h${random}>${input.value.toUpperCase()}</h${random}>`;
   container.appendChild(div);
   console.log(container.childNodes);
 });
