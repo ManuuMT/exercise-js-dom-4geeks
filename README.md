@@ -1,4 +1,4 @@
-# Ejercicios del DOM - Entregado el 18/11/21 ✅
+# Ejercicios del DOM - Entregado el 17/11/21 ✅
 
 ## Estos ejercicios cumplen con las siguientes reglas: 
 
